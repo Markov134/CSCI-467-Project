@@ -1,4 +1,4 @@
-i. Team name: TBD\
+i. Team name: SEAS\
 ii. Team members: Stephan Markovski, Amalia Cortez, Sebastian Santellanes, Eli Parish\
 iii. Assigned project: Product System\
 iv. Brief project description: TBD\
