@@ -1,10 +1,6 @@
 i. Team name: SEAS\
 ii. Team members: Stephan Markovski, Amalia Cortez, Sebastian Santellanes, Eli Parish\
 iii. Assigned project: Product System\
-iv. Brief project description: TBD\
-v. initial project goals: TBD\
-vi. Team member roles: Eli Parish - TBD, Amalia Cortez - TBD, Stephan Markovski - TBD, Sebastian Santellanes - TBD
-
-##### Brief project description ideas for review: Build a system that helps customers on the internet pay and place orders online. It is auto parts website that has 4 different interfaces (credit card authorization, warehouse management, warehouse front desk receiving, and administrative). 
-
-##### Initial project goals for review: Major Features - We will want to create a database that displays what products are avaliable and out of stock (note: legacy does not contain inventory information). Creating a payment system that once the user pays creates a authrization number. A second display thats for the workers in the workstation to print completed orders, retireve items, package up, invoice and shipping label. A third display at the recieving desk to tell when items are delivered they are added to inventory, and can be identified by part number/decscription, and their quantity is on hand is updated. And lastly an administrative display that allows to set the shipping and handeling charges as well as view all orders.
+iv. Brief project description: Build a system that helps customers on the internet pay and place orders online. It is an auto parts website that has 4 different interfaces (credit card authorization, warehouse management, warehouse front desk receiving, and administrative).\
+v. initial project goals: We will want to create a database that displays what products are available and out of stock (note: legacy does not contain inventory information). Creating a payment system that once the user pays creates a authorization number. A second display that is for the workers in the workstation to print completed orders, retrieve items, package up, invoice and shipping label. A third display at the receiving desk to tell when items are delivered they are added to inventory, and can be identified by part number/description, and their quantity is on hand is updated. And lastly an administrative display that allows to set the shipping and handling charges as well as view all orders.\
+vi. Team member roles: Eli Parish - Front-end, Amalia Cortez - Back-end, Stephan Markovski - Front-end, Sebastian Santellanes - Back-end
