@@ -12,6 +12,7 @@
     display: block;
     height: 48px;
     width: auto;
+    margin-right: 1rem;
 }
 
 .navbar-links {
@@ -22,13 +23,16 @@
 
 .navbar-link {
     color: #333;
+    background-color: #FFFFFF;
+    margin-left: 15px;
     text-decoration: none;
     padding: 0.4rem 0.8rem;
     border-radius: 4px;
 }
 
 .navbar-link:hover {
-    background-color: #f0f0f0;
+    background-color: #333232;
+    color: white;
 }
 
 .navbar-link.active {

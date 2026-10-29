@@ -7,14 +7,16 @@ import SignIn from './pages/SignIn';
 import ReturnsOrders from './pages/ReturnsOrders';
 import About from './pages/About';
 import Cart from './pages/Cart'
+import HomePage from './pages/HomePage';
+import styles from './Styles/Styles.module.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className={styles.App}>
         <NavBar />
         <Routes>
-          <Route path="/" element={<h1>Welcome to the Auto Parts Website</h1>} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/customer" element={<CustomerPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/signin" element={<SignIn />} />
