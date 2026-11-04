@@ -15,6 +15,7 @@ function NavBar() {
                 <div className="navbar-links">
                     <NavLink to="/customer" className="navbar-link">Customer</NavLink>
                     <NavLink to="/admin" className="navbar-link">Admin</NavLink>
+                    <NavLink to="/warehouse" className="navbar-link">Warehouse</NavLink>
                 </div>
             </div>
         </nav>
