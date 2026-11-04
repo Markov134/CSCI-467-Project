@@ -5,7 +5,7 @@ function CustomerPage() {
         <div>
             <header>
                 <div>
-                    <img src="/seas_logo.png" width="200px" height="Auto" />
+                    <img src="/seas_logo.png" width="200px" height="Auto" alt="SEAS logo" />
                 </div>
                 <div>
                     <p>Deliver to</p>
