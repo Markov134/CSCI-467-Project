@@ -10,6 +10,8 @@ import Cart from './pages/customer/Cart';
 import WarehousePage from './pages/warehouse/WarehousePage';
 import ReceivingDeskPage from './pages/warehouse/ReceivingDeskPage';
 import WorkstationPage from './pages/warehouse/WorkstationPage';
+import HomePage from './pages/home/HomePage.js';
+import styles from './Styles/Styles.module.css';
 
 function App() {
   return (

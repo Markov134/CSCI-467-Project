@@ -1,5 +1,5 @@
 
-import styles from '../Styles/Styles.module.css';
+import styles from '../../Styles/Styles.module.css';
 import Carousel from 'react-bootstrap/Carousel';
 
 function HomePage(){
