@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
+import styles from '../../Styles/Styles.module.css';
 
 function CustomerPage() {
     return (
-        <div>
+        <div className={styles.background}>
             <header>
                 <div>
                     <img src="/seas_logo.png" width="200px" height="Auto" alt="SEAS logo" />
