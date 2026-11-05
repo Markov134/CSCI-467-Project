@@ -10,6 +10,20 @@
     height: 100vh;
 }
 
+.back_button {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+
+.back_button button {
+    
+   background: none;
+   border: none;
+   color: white;
+   font-size: 24px;
+}
+
 .App {
     background: #534874;
 }
