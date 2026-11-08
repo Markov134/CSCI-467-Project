@@ -7,8 +7,10 @@
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 50px;
-    height: 100vh;
+    min-height: 100vh;
 }
+
+
 
 .App {
     background: #534874;
@@ -26,4 +28,11 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
+}
+
+.NavLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
