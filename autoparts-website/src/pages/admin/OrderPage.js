@@ -4,6 +4,7 @@ function OrderPage() {
     return (
         <div className={styles.background}>
             <h1>Welcome to the Order Page!</h1>
+            <h1>List of orders here</h1>
         </div>
         
     )

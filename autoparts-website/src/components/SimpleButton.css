@@ -1,0 +1,11 @@
+.simple-button {
+  background-color: #4FA8FF;
+  border-color: #4FA8FF;
+}
+
+.simple-button:hover,
+.simple-button:active,
+.simple-button:focus {
+  background-color: #DBCBD8;
+  border-color: #DBCBD8;
+}

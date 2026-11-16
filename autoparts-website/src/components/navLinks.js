@@ -9,12 +9,10 @@ export const customerLinks = [
     { label: 'Returns & Orders', to: '/returnorder' },
     { label: 'Cart', to: '/cart' },
     { label: 'Sign In', to: '/signin' },
-    { label: 'About', to: '/about' },
 ]
 
 export const adminLinks = [
     { label: 'Dashboard', to: '/admin' },
-    { label: 'Orders', to: '/admin/orderpage' },
 ]
 
 export const warehouseLinks = [
