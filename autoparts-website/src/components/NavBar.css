@@ -1,5 +1,6 @@
 .navbar {
     width: 100%;
+    height: auto;
 }
 
 .navbar-container {
@@ -10,8 +11,8 @@
 
 .navbar-logo {
     display: block;
-    height: 48px;
-    width: auto;
+    width: 100px;
+    height: auto;
     margin-right: 1rem;
 }
 
