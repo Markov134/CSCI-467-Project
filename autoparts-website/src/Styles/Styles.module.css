@@ -1,5 +1,3 @@
-
-
 .background {
     background: #1B0052;
     background: linear-gradient(180deg, rgba(27, 0, 82, 1) 0%, rgba(113, 105, 122, 1) 61%, rgba(219, 203, 216, 1) 100%);
@@ -17,7 +15,8 @@
 }
 
 .NavBarButton {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -35,4 +34,39 @@
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B0052;
+    color: #71697A;
+    padding: 0 1rem;
+}
+
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+    gap: 20px;
+}
+
+.nav_center {
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    gap: 20px;
+}
+
+.search_bar {
+    width: 400px;
 }
