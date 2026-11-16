@@ -9,8 +9,22 @@ function RequestItem() {
             <h1>Request Items from the Warehouse</h1>
 
             <div className={styles.questionList}>
-                <FormFillQuestion question ="Item Number? " />
-                <FormFillQuestion question ="Quantity? " />
+                <FormFillQuestion 
+                    question ="Item Number? " 
+                    type="number"
+                    id="itemNumber"
+                    name="itemNumber"
+                    placeholder="Enter item number"
+                    required
+                />
+                <FormFillQuestion 
+                    question ="Quantity? " 
+                    type="number"
+                    id="quantity"
+                    name="quantity"
+                    placeholder="Enter quantity"
+                    required
+                />
                 <SimpleButton label =" Submit" onClick={() => alert('Submitted!')} />
             </div>
         </div>  

@@ -9,10 +9,38 @@ function PackItem() {
         <div className={styles.background}>
             <h1>Let's Pack a Package!</h1>
             <div className={styles.questionList}>
-                <FormFillQuestion question ="Package Number? " />
-                <FormFillQuestion question ="Package Weight? " />
-                <FormFillQuestion question ="Customer Name? " />
-                <FormFillQuestion question ="Shipping Address? " />
+                <FormFillQuestion 
+                    question ="Package Number? " 
+                    type="number"
+                    id="packageNumber"
+                    name="packageNumber"
+                    placeholder="Enter package number"
+                    required
+                />
+                <FormFillQuestion 
+                    question ="Package Weight? " 
+                    type="number"
+                    id="packageWeight"
+                    name="packageWeight"
+                    placeholder="Enter package weight"
+                    required
+                />
+                <FormFillQuestion 
+                    question ="Customer Name? " 
+                    type="text"
+                    id="customerName"
+                    name="customerName"
+                    placeholder="Enter customer name"
+                    required
+                />
+                <FormFillQuestion 
+                    question ="Shipping Address? " 
+                    type="text"
+                    id="shippingAddress"
+                    name="shippingAddress"
+                    placeholder="Enter shipping address"
+                    required
+                />
                 <SimpleButton label =" Submit" onClick={() => alert('Submitted!')} />
             </div>
         </div>

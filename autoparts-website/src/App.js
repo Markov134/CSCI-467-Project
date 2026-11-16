@@ -13,6 +13,7 @@ import ReceivingDeskPage from './pages/warehouse/ReceivingDeskPage';
 import WorkstationPage from './pages/warehouse/WorkstationPage';
 import HomePage from './pages/home/HomePage.js';
 import LoginPage from './pages/login/LoginPage.js';
+import SignIn from './pages/customer/SignIn.js';
 import PackItem from './pages/warehouse_tasks/PackItem';
 import PrintPacking from './pages/warehouse_tasks/PrintPackingLists';
 import RequestItem from './pages/warehouse_tasks/RequestItems';
@@ -36,6 +37,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/returnorder" element={<ReturnsOrders />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/signin" element={<SignIn />} />
           </Route>
 
           <Route element={<Layout links={adminLinks} />}>

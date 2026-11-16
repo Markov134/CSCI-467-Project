@@ -8,7 +8,14 @@ function PrintPacking() {
             <h1>Package Printing</h1>
 
             <div className={styles.questionList}>
-                <FormFillQuestion question ="Order Number?" />
+                <FormFillQuestion 
+                    question ="Order Number?"
+                    type="number"
+                    id="orderNumber"
+                    name="orderNumber"
+                    placeholder="Enter order number"
+                    required
+                />
                 <SimpleButton label =" Submit" onClick={() => alert('Submitted!')} />
             </div>
 
